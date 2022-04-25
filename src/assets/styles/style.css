@@ -1,20 +1,168 @@
-.weixinhaofz {width:150px; overflow:hidden; border:1px solid #eee; background:#fcfcfc; position:fixed; bottom:50%; right:20px; z-index:99999999; padding:15px;}
-.weixinhaofz h1 {width:110px; overflow:hidden; height:80px; font-size:60px; color:#3C0; text-align:center; line-height:80px; font-weight:100; position:relative}
-.weixinhaofz h1 p {width:15px; overflow:hidden; height:15px; display:block; position:absolute; top:3px; right:18px; background:url("http://www.dpq66.com/templets/xinmoban/images/shan.gif"); z-index:999}
-.weixinhaofz h2 {width:110px; overflow:hidden; text-align:center; line-height:30px; font-size:18px; color:#090;}
-.weixinhaofz h2 p {width:110px; overflow:hidden; display:block; line-height:20px; font-size:14px; font-weight:100; text-align:center; display:block}
-.weixinhaofz button {width:110px; overflow:hidden; height:35px; text-align:center; line-height:35px; background:#090; margin-top:5px; font-size:12px; color:#FFF; border:0px;}
-.weixinhaofz button:hover {width:110px; overflow:hidden; height:35px; text-align:center; line-height:35px; background:#F60; margin-top:5px; font-size:12px; color:#FFF; border:0px; cursor:pointer}
+.weixinhaofz {
+  width: 150px;
+  overflow: hidden;
+  border: 1px solid #eee;
+  background: #fcfcfc;
+  position: fixed;
+  bottom: 50%;
+  right: 20px;
+  z-index: 99999999;
+  padding: 15px;
+}
+.weixinhaofz h1 {
+  width: 110px;
+  overflow: hidden;
+  height: 80px;
+  font-size: 60px;
+  color: #3c0;
+  text-align: center;
+  line-height: 80px;
+  font-weight: 100;
+  position: relative;
+}
+.weixinhaofz h1 p {
+  width: 15px;
+  overflow: hidden;
+  height: 15px;
+  display: block;
+  position: absolute;
+  top: 3px;
+  right: 18px;
+  background: url("http://www.dpq66.com/templets/xinmoban/images/shan.gif");
+  z-index: 999;
+}
+.weixinhaofz h2 {
+  width: 110px;
+  overflow: hidden;
+  text-align: center;
+  line-height: 30px;
+  font-size: 18px;
+  color: #090;
+}
+.weixinhaofz h2 p {
+  width: 110px;
+  overflow: hidden;
+  display: block;
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: 100;
+  text-align: center;
+  display: block;
+}
+.weixinhaofz button {
+  width: 110px;
+  overflow: hidden;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  background: #090;
+  margin-top: 5px;
+  font-size: 12px;
+  color: #fff;
+  border: 0px;
+}
+.weixinhaofz button:hover {
+  width: 110px;
+  overflow: hidden;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  background: #f60;
+  margin-top: 5px;
+  font-size: 12px;
+  color: #fff;
+  border: 0px;
+  cursor: pointer;
+}
 
-@media screen and (min-width: 320px) and (max-width: 640px){
-.weixinhaofz {width:100%; overflow:hidden; background:#fcfcfc; height:60px; position:fixed; bottom:0px; left:0px; z-index:99999999; padding:3%; padding-top:1.5%; padding-bottom:1.5%}
-.weixinhaofz h1 {width:20%; overflow:hidden; height:60px; font-size:50px; color:#3C0; text-align:center; line-height:60px; font-weight:100; position:relative; float:left}
-.weixinhaofz h1 p {width:15px; overflow:hidden; height:15px; display:block; position:absolute; top:3px; right:10px; background:url("http://www.dpq66.com/templets/xinmoban/images/shan.gif"); z-index:999}
-.weixinhaofz h2 {width:40%; overflow:hidden; text-align:left; line-height:20px; font-size:18px; color:#090; float:left; padding-left:2%}
-.weixinhaofz h2 p {width:100%; overflow:hidden; display:block; line-height:20px; font-size:14px; font-weight:100; text-align:left; display:block; padding-top:7px;}
-.weixinhaofz button {width:33%; overflow:hidden; height:35px; text-align:center; line-height:35px; background:#090; margin-top:5px; font-size:12px; color:#FFF; border:0px; float:left; margin-top:12.5px;}
-.weixinhaofz button:hover {width:33%; overflow:hidden; height:35px; text-align:center; line-height:35px; background:#F60; margin-top:5px; font-size:12px; color:#FFF; border:0px; cursor:pointer}
-body {padding-bottom:60px !important;}	
+@media screen and (min-width: 320px) and (max-width: 640px) {
+  .weixinhaofz {
+    width: 100%;
+    overflow: hidden;
+    background: #fcfcfc;
+    height: 60px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    z-index: 99999999;
+    padding: 3%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+  }
+  .weixinhaofz h1 {
+    width: 20%;
+    overflow: hidden;
+    height: 60px;
+    font-size: 50px;
+    color: #3c0;
+    text-align: center;
+    line-height: 60px;
+    font-weight: 100;
+    position: relative;
+    float: left;
+  }
+  .weixinhaofz h1 p {
+    width: 15px;
+    overflow: hidden;
+    height: 15px;
+    display: block;
+    position: absolute;
+    top: 3px;
+    right: 10px;
+    background: url("http://www.dpq66.com/templets/xinmoban/images/shan.gif");
+    z-index: 999;
+  }
+  .weixinhaofz h2 {
+    width: 40%;
+    overflow: hidden;
+    text-align: left;
+    line-height: 20px;
+    font-size: 18px;
+    color: #090;
+    float: left;
+    padding-left: 2%;
+  }
+  .weixinhaofz h2 p {
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 100;
+    text-align: left;
+    display: block;
+    padding-top: 7px;
+  }
+  .weixinhaofz button {
+    width: 33%;
+    overflow: hidden;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    background: #090;
+    margin-top: 5px;
+    font-size: 12px;
+    color: #fff;
+    border: 0px;
+    float: left;
+    margin-top: 12.5px;
+  }
+  .weixinhaofz button:hover {
+    width: 33%;
+    overflow: hidden;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    background: #f60;
+    margin-top: 5px;
+    font-size: 12px;
+    color: #fff;
+    border: 0px;
+    cursor: pointer;
+  }
+  body {
+    padding-bottom: 60px !important;
+  }
 }
 
 /* Customized */
@@ -92,13 +240,13 @@ img {
   width: 100%;
 }
 .back4 {
-  background: url(../image/p_3.jpg) no-repeat top right/cover fixed;
+  /* background: url(../image/p_3.jpg) no-repeat top right/cover fixed; */
 }
 .back5 {
-  background: url(../image/p_4.jpg) no-repeat top right/cover fixed;
+  /* background: url(../image/p_4.jpg) no-repeat top right/cover fixed; */
 }
 .yuan1 {
-  background: url(../image/yuan.png) no-repeat;
+  /* background: url(../image/yuan.png) no-repeat; */
 }
 .yuan {
   width: 5.5rem;
@@ -351,164 +499,170 @@ footer a.btn:focus {
 .logo_hide {
   display: none;
 }
-html, body{
-    padding: 0;
-    margin: 0;
+html,
+body {
+  padding: 0;
+  margin: 0;
 }
 
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
-body{
-    font-family: 'Microsoft YaHei';
-    opacity: 0;
-    transition: opacity 1s;
+body {
+  font-family: "Microsoft YaHei";
+  /* opacity: 0; */
+  transition: opacity 1s;
 }
 
-.header{
-    min-width: 1600px;
-    max-width: 1920px;
-    margin: 0 auto;
-    padding: 5px 0;
-    box-shadow: 0 2px 2px rgba(0,0,0,.4);
-    position: relative;
-    z-index: 99;
-	text-align:center;
+.header {
+  min-width: 1600px;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 5px 0;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+  position: relative;
+  z-index: 99;
+  text-align: center;
 }
 
-.header img{
-    height: 86px;
-    width: auto;
-    vertical-align: middle;
+.header img {
+  height: 86px;
+  width: auto;
+  vertical-align: middle;
 }
 
-
-.content{
-    background: linear-gradient(to bottom, #69a1e6, #215b9e);
-    height: calc(100vh - 96px - 280px);
-    text-align: center;
-    min-height: 535px;
-    position: relative;
-    min-width: 1600px;
+.content {
+  background: linear-gradient(to bottom, #69a1e6, #215b9e);
+  height: calc(100vh - 96px - 280px);
+  text-align: center;
+  min-height: 535px;
+  position: relative;
+  min-width: 1600px;
 }
 
-.content .main{
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    margin-top: -20px;
-    width: 100%;
+.content .main {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-top: -20px;
+  width: 100%;
 }
 
-.content img{
-    height: 280px;
-    width: 350px;
-    vertical-align: middle;
+.content img {
+  height: 280px;
+  width: 350px;
+  vertical-align: middle;
 }
 
-.content .txxx{
-    color: #fff;
-    font-size: 40px;
-    letter-spacing: 4px;
-    margin-top: 15px;
-    text-shadow: 0 2px 2px rgba(0,0,0,.5);
+.content .txxx {
+  color: #fff;
+  font-size: 40px;
+  letter-spacing: 4px;
+  margin-top: 15px;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
 }
 
-.content .fxtx{
-    line-height: 55px;
-    font-size: 30px;
-    margin-top: 25px;
-    display: inline-block;
-    letter-spacing: 5px;
-    background: rgba(255, 255, 255,.5);
-    padding: 12px 40px;
-    border-radius: 12px;
+.content .fxtx {
+  line-height: 55px;
+  font-size: 30px;
+  margin-top: 25px;
+  display: inline-block;
+  letter-spacing: 5px;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 12px 40px;
+  border-radius: 12px;
 }
 
-.content .fxtx span{
-    color: #f00;
-    font-size: 42px;
+.content .fxtx span {
+  color: #f00;
+  font-size: 42px;
 }
 
-.content .phone{
-    font-size: 24px;
-    margin-top: 10px;
-    color: #fff;
+.content .phone {
+  font-size: 24px;
+  margin-top: 10px;
+  color: #fff;
 }
 
-.content .line{
-    margin: 0 auto;
-    width: 1000px;
-    margin-top: 25px;
-    height: 2px;
-    background: linear-gradient(to right, rgba(255,255,255,.1),rgba(255,255,255,1), rgba(255,255,255,.1));
+.content .line {
+  margin: 0 auto;
+  width: 1000px;
+  margin-top: 25px;
+  height: 2px;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 0.1)
+  );
 }
 
-.footer{
-    min-width: 1600px;
-    font-size: 20px;
-    height: 270px;
-    text-align: center;
-    letter-spacing: 4px;
-    padding-top: 10px;
+.footer {
+  min-width: 1600px;
+  font-size: 20px;
+  height: 270px;
+  text-align: center;
+  letter-spacing: 4px;
+  padding-top: 10px;
 }
 
-.footer .ewm{
-    width: 120px;
-    height: 120px;
-    margin: 10px 20px 0;
-    padding-bottom: 20px;
+.footer .ewm {
+  width: 120px;
+  height: 120px;
+  margin: 10px 20px 0;
+  padding-bottom: 20px;
 }
 
-.footer .gzh, .footer .app-ewm{
-    display: inline-block;
-    padding: 0 20px;
-    position: relative;
+.footer .gzh,
+.footer .app-ewm {
+  display: inline-block;
+  padding: 0 20px;
+  position: relative;
 }
 
-.footer .gzh{
-    margin-left: 30px;
+.footer .gzh {
+  margin-left: 30px;
 }
 
-.footer .gzh:before{
-    content: ' ';
-    display: block;
-    position: absolute;
-    width: 1px;
-    height: 120px;
-    top: 37px;
-    left: -20px;
-    background: rgba(0, 0, 0,.4);
+.footer .gzh:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 1px;
+  height: 120px;
+  top: 37px;
+  left: -20px;
+  background: rgba(0, 0, 0, 0.4);
 }
 
-.footer .register{
-    padding-top: 10px;
-    font-size: 14px;
-    margin-top: 20px;
-    border-top: 1px solid rgba(0, 0, 0,.4);
-    line-height: 20px;
-    color: rgba(0,0,0,.7);
+.footer .register {
+  padding-top: 10px;
+  font-size: 14px;
+  margin-top: 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.4);
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.7);
 }
 
-.footer .inline-block{
-    display: inline-block;
-    position: relative;
+.footer .inline-block {
+  display: inline-block;
+  position: relative;
 }
 
 .footer .ts {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-.footer a{
-    text-decoration: none;
-    color: rgba(0,0,0,.7);
+.footer a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.7);
 }
 
-.footer a:hover{
-    color: #0079ff;
+.footer a:hover {
+  color: #0079ff;
 }

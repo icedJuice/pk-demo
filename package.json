@@ -60,6 +60,9 @@
     "test": "node scripts/test.js"
   },
   "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
   },
   "browserslist": {
     "production": [
